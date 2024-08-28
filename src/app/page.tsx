@@ -9,7 +9,7 @@ export default function Home() {
         {course.lessons.map((lesson) => {
           return <li key={lesson.name}>
             <h2>{lesson.title}</h2>
-            <p>{lesson.shared}</p>
+            <p>{lesson.points}</p>
 
           </li>
         })}
