@@ -1,12 +1,12 @@
 import styles from './page.module.css'
 
 
-export default async function Home() {
+export default function Home() {
 
   
   return (
     <main>
-
+      Hello
     </main>
   );
 }
